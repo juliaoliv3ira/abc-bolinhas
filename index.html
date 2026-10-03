@@ -6,6 +6,14 @@
 </head>
 <body class="pagina">
 
+    <nav class="menu">
+        <ul class="lista-menu">
+            <li class="item-menu"><a href="#perfil" class="link-menu">Perfil</a></li>
+            <li class="item-menu"><a href="#sobre" class="link-menu">Sobre Mim</a></li>
+            <li class="item-menu"><a href="#interesses" class="link-menu">Interesses</a></li>
+        </ul>
+    </nav>
+
     <div class="perfil">
             <img src="img/minha-foto.jpeg" alt="Minha Foto de Perfil" class="foto-perfil">
             <div class="informacoes">
@@ -13,15 +21,21 @@
             </div>
     </div>
 
-    <h1>Escolha uma opção:</h1>
-    <div class="container">
-        <form action="animais.html" target="_blank" class="formulario">
-            <button type="submit" class="botao">animais que gosto</button>
-        </form>
+    <section id="sobre" class="secao">
+            <h2 class="titulo-secao">Sobre Mim</h2>
+            <p class="texto">Oii, sou a Mariana e aqui vocês vão ver um pouco mais sobre mim, sou uma pessoa muito eclética então os gostos serão variádos.</p>
+    </section>
 
-        <form action="filmes.html" target="_blank" class="formulario">
-            <button type="submit" class="botao">filmes que gosto</button>
-        </form>
-    </div>
+    <section id="interesses" class="secao">
+            <h2 class="titulo-secao">Meus Interesses</h2>
+            
+            <form action="animais.html" target="_blank" class="formulario">
+                <button type="submit" class="botao">animais que gosto</button>
+            </form>
+
+            <form action="filmes.html" target="_blank" class="formulario">
+                <button type="submit" class="botao">filmes que gosto</button>
+            </form>
+    </section>
 </body>
 </html>
