@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Lindo</title>
+</head>
+<body>
+    <header class="cabecalho">
+         <h1 class="titulo-principal">Juan Branco Lemos</h1>
+    </header>
+    <section class="secao">
+         <summary><p>
+            Pra que jogar a bola na Mavi Pô
+         </p></summary>
+         <main>
+            <div class="container"><nav class="menu">
+                <button id="Fotos">Fotos</button>
+                <button id="sobre-mim">Sobre mim</button>
+            </nav></div>
+         </main>
+    </section>
+</body>
+<script>
+    const btnFotos = document.getElementById("fotos");
+    btnFotos.addEventListener('click', function() {
+        window.location.href = "fotos.html";
+    });
+    const btnMim = document.getElementById("sobre-mim");
+    btnMim.addEventListener('click', function() {
+        window.location.href = "sobremim.html";
+    })
+</script>
+</html>
