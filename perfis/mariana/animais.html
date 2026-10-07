@@ -2,26 +2,63 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Animais que Gosto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais que gosto | Mariana</title>
+    <link rel="stylesheet" href="../../paginaInicial/estilo.css">
 </head>
-<body class="pagina">
-    <div class="container">
-        <h1 class="titulo-principal">Animais que Gosto</h1>
+<body class="pagina pagina-animais">
+    <header class="cabecalho">
+        <p class="texto-menor">ABC Bolinhas · Perfil de integrante</p>
+        <h1 class="titulo-principal">Animais que gosto</h1>
+        <p class="texto">Os bichinhos que mais me encantam.</p>
+    </header>
 
-        <figure class="figura">
-            <img src="img/gatos.jpg" alt="Gatos" class="imagem">
-            <figcaption class="legenda-imagem">Gatos</figcaption>
-        </figure>
+    <nav class="menu" aria-label="Navegação do perfil">
+        <ul class="lista-menu">
+            <li class="item-menu"><a class="link-menu" href="perfil.html">Perfil</a></li>
+            <li class="item-menu"><a class="link-menu" href="animais.html" aria-current="page">Animais</a></li>
+            <li class="item-menu"><a class="link-menu" href="filmes.html">Filmes</a></li>
+        </ul>
+    </nav>
 
-        <figure class="figura">
-            <img src="img/cachorros.jpeg" alt="Cachorros" class="imagem">
-            <figcaption class="legenda-imagem">Cachorros</figcaption>
-        </figure>
+    <main class="conteudo-principal">
+        <section class="secao animais">
+            <h2 class="titulo-secao">Meus animais favoritos</h2>
+            <p class="texto">Uma seleção dos animais que eu mais gosto.</p>
 
-        <figure class="figura">
-            <img src="img/cavalos.jpg" alt="Cavalos" class="imagem">
-            <figcaption class="legenda-imagem">Cavalos</figcaption>
-        </figure>
-    </div>
+            <div class="container">
+                <article class="card">
+                    <h3 class="subtitulo">🐱 Gatos</h3>
+                    <figure class="figura">
+                        <img class="imagem" src="img/gatos.jpg" alt="Foto de gatos">
+                    </figure>
+                </article>
+
+                <article class="card">
+                    <h3 class="subtitulo">🐶 Cachorros</h3>
+                    <figure class="figura">
+                        <img class="imagem" src="img/cachorros.jpeg" alt="Foto de cachorros">
+                    </figure>
+                </article>
+
+                <article class="card">
+                    <h3 class="subtitulo">🐴 Cavalos</h3>
+                    <figure class="figura">
+                        <img class="imagem" src="img/cavalos.jpg" alt="Foto de cavalos">
+                    </figure>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="texto">Olá professor</p>
+        <small class="texto-menor">Animais · Mariana Machado Temes</small>
+    </footer>
+
+    <nav class="menu-paginas" aria-label="Navegação entre páginas">
+        <a class="botao botao-anterior" href="perfil.html">← Voltar ao perfil</a>
+        <a class="botao botao-proximo" href="filmes.html">Próxima página <span class="destaque" aria-hidden="true">→</span></a>
+    </nav>
 </body>
 </html>

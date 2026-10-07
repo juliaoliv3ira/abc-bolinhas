@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gostos | Julia</title>
+    <link rel="stylesheet" href="../../paginaInicial/estilo.css">
 </head>
 <body class="pagina pagina-gostos">
     <header class="cabecalho">
@@ -12,9 +13,9 @@
         <p class="texto">Os meus principais interesses, passatempos e hábitos do dia a dia.</p>
     </header>
 
-    <!-- Menu Superior Atualizado -->
     <nav class="menu" aria-label="Navegação do perfil">
         <ul class="lista-menu">
+            <li class="item-menu"><a class="link-menu" href="perfil.html">Perfil</a></li>
             <li class="item-menu"><a class="link-menu" href="gostos.html" aria-current="page">Gostos</a></li>
             <li class="item-menu"><a class="link-menu" href="jogos.html">Jogos</a></li>
         </ul>
@@ -23,6 +24,8 @@
     <main class="conteudo-principal">
         <section class="secao gostos">
             <h2 class="titulo-secao">O que eu mais gosto</h2>
+            <p class="texto">Alguns dos interesses e hábitos que fazem parte da minha rotina.</p>
+
             <div class="container">
                 <article class="card">
                     <h3 class="subtitulo">💻 Tecnologia & Lógica</h3>
@@ -40,18 +43,15 @@
                 </article>
             </div>
         </section>
-
-        <!-- Botão para Voltar/Navegar -->
-        <section class="secao navegacao-botoes">
-            <div class="container-botoes">
-                <a class="botao" href="perfil.html">← Voltar para o Perfil</a>
-                <a class="botao" href="jogos.html">Ver Meus Jogos →</a>
-            </div>
-        </section>
     </main>
 
     <footer class="rodape">
-        <small class="texto-menor">Perfil pessoal · Julia Oliveira</small>
+        <small class="texto-menor">Gostos · Julia Oliveira</small>
     </footer>
+
+    <nav class="menu-paginas" aria-label="Navegação entre páginas">
+        <a class="botao botao-anterior" href="perfil.html">← Voltar ao perfil</a>
+        <a class="botao botao-proximo" href="jogos.html">Próxima página <span class="destaque" aria-hidden="true">→</span></a>
+    </nav>
 </body>
 </html>

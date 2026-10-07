@@ -2,26 +2,63 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Filmes que Gosto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes que gosto | Mariana</title>
+    <link rel="stylesheet" href="../../paginaInicial/estilo.css">
 </head>
-<body class="pagina">
-    <div class="container">
-        <h1 class="titulo-principal">Filmes que Gosto</h1>
+<body class="pagina pagina-filmes">
+    <header class="cabecalho">
+        <p class="texto-menor">ABC Bolinhas · Perfil de integrante</p>
+        <h1 class="titulo-principal">Filmes que gosto</h1>
+        <p class="texto">Alguns dos filmes que eu mais curto assistir.</p>
+    </header>
 
-        <figure class="figura">
-            <img src="mariana/jogos_vorazes.jpg" alt="Jogos Vorazes" class="imagem">
-            <figcaption class="legenda-imagem">Jogos Vorazes</figcaption>
-        </figure>
+    <nav class="menu" aria-label="Navegação do perfil">
+        <ul class="lista-menu">
+            <li class="item-menu"><a class="link-menu" href="index.html">Perfil</a></li>
+            <li class="item-menu"><a class="link-menu" href="animais.html">Animais</a></li>
+            <li class="item-menu"><a class="link-menu" href="filmes.html" aria-current="page">Filmes</a></li>
+        </ul>
+    </nav>
 
-        <figure class="figura">
-            <img src="mariana/homem_aranha.png" alt="Homem Aranha: Sem Volta Pra Casa" class="imagem">
-            <figcaption class="legenda-imagem">Homem Aranha: Sem Volta Pra Casa</figcaption>
-        </figure>
+    <main class="conteudo-principal">
+        <section class="secao filmes">
+            <h2 class="titulo-secao">Meus filmes favoritos</h2>
+            <p class="texto">Uma seleção de filmes que eu gosto e recomendo.</p>
 
-        <figure class="figura">
-            <img src="mariana/branquelas.jpg" alt="Branquelas" class="imagem">
-            <figcaption class="legenda-imagem">Branquelas</figcaption>
-        </figure>
-    </div>
+            <div class="container">
+                <article class="card">
+                    <h3 class="subtitulo">Jogos Vorazes</h3>
+                    <figure class="figura">
+                        <img class="imagem" src="img/jogos_vorazes.jpg" alt="Pôster do filme Jogos Vorazes">
+                    </figure>
+                </article>
+
+                <article class="card">
+                    <h3 class="subtitulo">Homem-Aranha: Sem Volta Pra Casa</h3>
+                    <figure class="figura">
+                        <img class="imagem" src="img/homem_aranha.png" alt="Pôster do filme Homem-Aranha: Sem Volta Pra Casa">
+                    </figure>
+                </article>
+
+                <article class="card">
+                    <h3 class="subtitulo">Branquelas</h3>
+                    <figure class="figura">
+                        <img class="imagem" src="img/branquelas.jpg" alt="Pôster do filme Branquelas">
+                    </figure>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="texto">Olá professor</p>
+        <small class="texto-menor">Filmes · Mariana Machado Temes</small>
+    </footer>
+
+    <nav class="menu-paginas" aria-label="Navegação entre páginas">
+        <a class="botao botao-anterior" href="animais.html">← Página anterior</a>
+        <a class="botao botao-proximo" href="index.html">Voltar ao perfil <span class="destaque" aria-hidden="true">→</span></a>
+    </nav>
 </body>
 </html>

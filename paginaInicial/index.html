@@ -1,129 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC Bolinhas</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-<body class="pagina">
+<body class="pagina pagina-inicial">
 
     <header class="cabecalho">
-        <h1 titulo-principal>ABC Bolinhas</h1>
-        <p class="texto" >Bem vidos ao ABC Bolinhas!</p>
+        <h1 class="titulo-principal">ABC Bolinhas</h1>
+        <p class="texto">Bem-vindos ao ABC Bolinhas! Escolha um perfil para conhecer.</p>
     </header>
 
-    <!--perfil 01 - Matteo-->
-    <nav class="menu">
+    <nav class="menu" aria-label="Perfis da equipe">
         <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="perfis/matteo/perfil.html" class="link-menu">
+
+            <!-- perfil 01 - Matteo -->
+            <li class="item-menu">
+                <a href="../perfis/matteo/perfil.html" class="link-menu">
                     <div class="card-perfil">
-                        <img src="img/matteo.jpeg" alt="" class="foto-perfil">
+                        <img src="../perfis/matteo/foto_perfil.jpg" alt="Foto de Matteo" class="foto-perfil">
                         <h2 class="titulo-secao">Matteo</h2>
                     </div>
                 </a>
             </li>
-        </ul>
-    </nav>
 
-    <!--perfil 02 - Isabelle-->
-    <nav class="menu">
-        <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="perfis/IsabelleLima/index.html" class="link-menu"> 
+            <!-- perfil 02 - Isabelle -->
+            <li class="item-menu">
+                <a href="../perfis/IsabelleLima/index.html" class="link-menu">
                     <div class="card-perfil">
-                        <img src="img/isabelle.jpeg" alt="" class="foto-perfil">
+                        <img src="../perfis/IsabelleLima/isabelle.jpeg" alt="Foto de Isabelle" class="foto-perfil">
                         <h2 class="titulo-secao">Isabelle</h2>
                     </div>
                 </a>
             </li>
-        </ul>
-    </nav>
 
-    <!--perfil 03 - Henrique-->
-    <nav class="menu">
-        <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="perfis/henrique/perfil.html" class="link-menu">
+            <!-- perfil 03 - Henrique (sem foto: mostra a inicial) -->
+            <li class="item-menu">
+                <a href="../perfis/henrique/perfil.html" class="link-menu">
                     <div class="card-perfil">
-                        <img src="" alt="" class="foto-perfil">
+                        <span class="avatar-inicial" aria-hidden="true">H</span>
                         <h2 class="titulo-secao">Henrique Rorato</h2>
                     </div>
                 </a>
             </li>
-        </ul>
-    </nav>
 
-    <!--perfil 04 - julia-->
-    <nav class="menu">
-        <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="perfis/julia/perfil.html" class="link-menu">
+            <!-- perfil 04 - Julia -->
+            <li class="item-menu">
+                <a href="../perfis/julia/perfil.html" class="link-menu">
                     <div class="card-perfil">
-                        <img src="imagens/julia.jpg" alt="" class="foto-perfil">
+                        <img src="../perfis/julia/imagens/julia.jpg" alt="Foto de Julia" class="foto-perfil">
                         <h2 class="titulo-secao">Julia Oliveira</h2>
                     </div>
                 </a>
             </li>
-        </ul>
-    </nav>
 
-    <!--perfil 05-->
-    <nav class="menu">
-        <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="" class="link-menu">
+            <!-- perfil 05 - Gabrieli -->
+            <li class="item-menu">
+                <a href="../perfis/gabrieli/perfil-gabrieli.html" class="link-menu">
                     <div class="card-perfil">
-                        <img src="" alt="" class="foto-perfil">
-                        <h2 class="titulo-secao"></h2>
+                        <img src="../perfis/gabrieli/gabi.jpeg" alt="Foto de Gabrieli" class="foto-perfil">
+                        <h2 class="titulo-secao">Gabrieli</h2>
                     </div>
                 </a>
             </li>
-        </ul>
-    </nav>
 
-    <!--perfil 06-->
-    <nav class="menu">
-        <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="" class="link-menu">
+            <!-- perfil 06 - Mariana -->
+            <li class="item-menu">
+                <a href="../perfis/mariana/index.html" class="link-menu">
                     <div class="card-perfil">
-                        <img src="" alt="" class="foto-perfil">
-                        <h2 class="titulo-secao"></h2>
+                        <img src="../perfis/mariana/img/minha-foto.jpeg" alt="Foto de Mariana" class="foto-perfil">
+                        <h2 class="titulo-secao">Mariana</h2>
                     </div>
                 </a>
             </li>
-        </ul>
-    </nav>
 
-    <!--perfil 07-->
-    <nav class="menu">
-        <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="" class="link-menu">
+            <!-- MODELO para os próximos perfis: copie o <li> inteiro e preencha
+            <li class="item-menu">
+                <a href="../perfis/PASTA/perfil.html" class="link-menu">
                     <div class="card-perfil">
-                        <img src="" alt="" class="foto-perfil">
-                        <h2 class="titulo-secao"></h2>
+                        <img src="CAMINHO/FOTO.jpg" alt="Foto de NOME" class="foto-perfil">
+                        <h2 class="titulo-secao">NOME</h2>
                     </div>
                 </a>
             </li>
+            -->
+
         </ul>
     </nav>
 
-    <!--perfil 08-->
-    <nav class="menu">
-        <ul class="lista-menu">
-            <li class = "item-menu">
-                <a href="" class="link-menu">
-                    <div class="card-perfil">
-                        <img src="" alt="" class="foto-perfil">
-                        <h2 class="titulo-secao"></h2>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    
 </body>
 </html>
